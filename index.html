@@ -35,7 +35,7 @@
           }).addTo(mymap);
 
         var marker = L.marker([36.49, 117]).addTo(mymap);
-
+        var marker1 = L.marker([36.52, 117]).addTo(mymap);
         var circle = L.circle([36.49, 117.01], {
             color: 'red',
             fillColor: '#f03',
@@ -43,6 +43,9 @@
             radius: 500
         }).addTo(mymap);
 
+        marker.bindPopup("<b>Hello world!</b><br>I am a Maeker1.").openPopup();
+        marker.bindPopup("<b>Hello world!</b><br>I am Maeker2.").openPopup();
+        circle.bindPopup("I am a circle.");
 
       </script>
 
