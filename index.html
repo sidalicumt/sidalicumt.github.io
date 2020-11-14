@@ -51,13 +51,19 @@
       </script>
 
 
-      <<script type="text/javascript">
-        var fso, ts, s ;
-        var ForReading = 1;
-        fso = new ActiveXObject("Scripting.FileSystemObject");
-        ts = fso.OpenTextFile("d:\\HtmlTest.txt", ForReading);
-        s = ts.ReadLine();
-        document.getElementById("aa").innerHTML=s;
+      <script>
+          function GetHeader（src） {
+          var ForReading=1;
+          var fso=new ActiveXObject（"Scripting.FileSystemObject"）；
+          var f=fso.OpenTextFile（src,ForReading）；
+          return（f.ReadAll（））；
+          }
+          function ReadText（）{
+          var arr=GetHeader（"D:\HtmlTest.txt"）。split（"\r\n"）；
+          for（var i=0;i<arr.length;i++）{
+          alert（"第"+（i+1）+"行数据为："+arr[i]）；
+          }
+          }
       </script>
 
   </body>
