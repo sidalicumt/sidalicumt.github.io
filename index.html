@@ -52,18 +52,12 @@
 
       <<p> how to read txt
         <script>
-            function GetHeader（src） {
-            var ForReading=1;
-            var fso=new ActiveXObject（"Scripting.FileSystemObject"）；
-            var f=fso.OpenTextFile（src,ForReading）；
-            return（f.ReadAll（））；
-            }
-            function ReadText（）{
-            var arr=GetHeader（"D:\\HtmlTest.txt"）。split（"\r\n"）；
-            for（var i=0;i<arr.length;i++）{
-            alert（"第"+（i+1）+"行数据为："+arr[i]）；
-            }
-            }
+          var a = new XMLHttpRequest();
+          a.onreadystatechange = function(){
+          document.write(a.reponseText);
+          };
+          a.open('POST','./HtmlTest.txt',true);
+          a.send();
         </script>
 
       </p>
