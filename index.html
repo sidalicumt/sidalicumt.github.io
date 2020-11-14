@@ -3,42 +3,48 @@
 -->
 <<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8" />
-  <title>leaflet地图测试</title>
+  <head>
+    <meta charset="utf-8">
+    <title> i am so sad  </title>
 
-  <link rel="stylesheet" href="http://cdn.bootcss.com/leaflet/1.2.0/leaflet.css">    <!-- 提供leaflet的样式 -->
-  <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>     <!-- 提供leaflet的代码 -->
-  <script src="https://unpkg.com/esri-leaflet@2.1.4/dist/esri-leaflet.js"></script>     <!-- 让leaflet加载地图更加简单 -->
+  </head>
+  <body>
+      <h1 class="h1">Sida Test<h1>
 
-</head>
-<body>
-  <div id="map" style="height:500px;"></div>
-  <script>
-    var map = L.map('map').setView([37.002553, 106.890747], 3)
-    L.esri.tiledMapLayer({
-      url: 'http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaOnlineStreetPurplishBlue/MapServer'
-    }).addTo(map)
-    var marker = L.marker([38.761954, 117.775429]).addTo(map)
-    var circle = L.circle([38.761954, 117.575429], {
-      color: 'red',
-      fillColor: '#f03',
-      fillOpacity: 0.5,
-      radius: 500
-    }).addTo(map)
-    var polygon = L.polygon([
-      [38.561954, 117.675429],
-      [38.561954, 117.475429],
-      [38.361954, 117.375429]
-    ]).addTo(map)
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
 
-    var popup = L.popup()
-    map.on('click', function (e) {
-      popup
-        .setLatLng(e.latlng)
-        .setContent("你点击了 " + e.latlng.toString())
-        .openOn(map)
-    })
-  </script>
-</body>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin="">
+
+      </script>
+
+      <div id="mapid" style="height:580px;"></div>
+      <<script>
+        var mymap = L.map('mapid').setView([36.49, 117], 13);
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery ? <a href="https://www.mapbox.com/">Mapbox</a>',
+          maxZoom: 18,
+          id: 'mapbox/streets-v11',
+          tileSize: 512,
+          zoomOffset: -1,
+          accessToken: 'pk.eyJ1Ijoic2RsaWN1bXQiLCJhIjoiY2toaGFlY2c0MWM1eDJwdDlqdHhicWR1eSJ9.c6mEkntr7uxLuBVTNPLo9g'
+          }).addTo(mymap);
+
+        var marker = L.marker([36.49, 117]).addTo(mymap);
+
+        var circle = L.circle([36.49, 117.01], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 500
+        }).addTo(mymap);
+
+
+      </script>
+
+  </body>
 </html>>
