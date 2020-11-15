@@ -48,10 +48,23 @@
         circle.bindPopup("I am a circle.");
 
 
+        $.getJSON("sida_test.geojson",function(data){
+          var surgeIcon = L.icon({
+            iconUrl: 'Stevens-Apparel-Color-R.png',
+            iconSize: [13, 13], // size of the icon
+          });
+
+        L.geoJson(data, {
+             pointToLayer: function(feature,latlng){
+               var marker = L.marker(latlng,{icon: surgeIcon});
+             }
+           }).addTo(map);
       </script>
 
       <<p> how to read txt
         <script>
+
+
 
         </script>
 
