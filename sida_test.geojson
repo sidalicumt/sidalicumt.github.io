@@ -1,0 +1,225 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.77,46.2 ]
+    },
+    "properties": {
+    "tg":"Astoria, OR          ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.2,44.39 ]
+    },
+    "properties": {
+    "tg":"Bar Harbor, ME       ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.18,41.72 ]
+    },
+    "properties": {
+    "tg":"Crescent City, CA    ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.98,44.9 ]
+    },
+    "properties": {
+    "tg":"Eastport, ME         ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123,48.53 ]
+    },
+    "properties": {
+    "tg":"Friday Harbor, WA    ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.27,33.72 ]
+    },
+    "properties": {
+    "tg":"Los Angeles, CA      ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.6,48.38 ]
+    },
+    "properties": {
+    "tg":"Neah Bay, WA         ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.2,30.4 ]
+    },
+    "properties": {
+    "tg":"Pensacola, FL        ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.75,35.16 ]
+    },
+    "properties": {
+    "tg":"Port San Luis, CA    ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.17,32.7 ]
+    },
+    "properties": {
+    "tg":"San Diego, CA        ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.5,39 ]
+    },
+    "properties": {
+    "tg":"Annapolis, MD        ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 85,29.7 ]
+    },
+    "properties": {
+    "tg":"Apalachicola, FL     ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.4,39.4 ]
+    },
+    "properties": {
+    "tg":"Atlantic City, NJ    ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.6,39.3 ]
+    },
+    "properties": {
+    "tg":"Baltimore, MD        ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 89.3,30.3 ]
+    },
+    "properties": {
+    "tg":"Bay Waveland, MS     ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 76.7,34.7 ]
+    },
+    "properties": {
+    "tg":"Beaufort, NC         ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.1,40.6 ]
+    },
+    "properties": {
+    "tg":"Bergen Point, NY     ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1,42.4 ]
+    },
+    "properties": {
+    "tg":"Boston, MA           ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.2,41.2 ]
+    },
+    "properties": {
+    "tg":"Bridgeport, CT       ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.1,38.6 ]
+    },
+    "properties": {
+    "tg":"Cambridge, MD        ",
+    "path":"https://github.com/sidalicumt/sidalicumt.github.io/blob/main/HtmlTest.txt"
+    }
+  }
+]
+}
