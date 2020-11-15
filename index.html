@@ -24,7 +24,7 @@
 
       <div id="mapid" style="height:580px;"></div>
       <<script>
-        var mymap = L.map('mapid').setView([36.49, 117], 13);
+        var mymap = L.map('mapid').setView([34.5967, 119.2216], 13);
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
           attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery ? <a href="https://www.mapbox.com/">Mapbox</a>',
           maxZoom: 18,
@@ -34,8 +34,8 @@
           accessToken: 'pk.eyJ1Ijoic2RsaWN1bXQiLCJhIjoiY2toaGFlY2c0MWM1eDJwdDlqdHhicWR1eSJ9.c6mEkntr7uxLuBVTNPLo9g'
           }).addTo(mymap);
 
-        var marker = L.marker([36.49, 117]).addTo(mymap);
-        var marker1 = L.marker([36.52, 117]).addTo(mymap);
+        var marker = L.marker([34.5967, 119.2216]).addTo(mymap);
+        var marker1 = L.marker([34.71, 119.2216]).addTo(mymap);
         var circle = L.circle([36.49, 117.01], {
             color: 'red',
             fillColor: '#f03',
@@ -43,8 +43,8 @@
             radius: 500
         }).addTo(mymap);
 
-        marker.bindPopup("<b>Hello world!</b><br>I am a Maeker1.").openPopup();
-        marker1.bindPopup("<b>Hello world!</b><br><a href='http://www.cnn.com'>进入</a><br> <<img src='Stevens-Apparel-Color-R.png' alt='missing figure' height='100px' width='200px'>").openPopup();
+        marker.bindPopup("<b>Hello world!</b><br>This is my hometown").openPopup();
+        marker1.bindPopup("<b>江苏移动官网</b><br><a href='http://service.js.10086.cn/'>点击进入</a><br> <<img src='download.jpg' alt='missing figure' height='100px' width='100px'>").openPopup();
         circle.bindPopup("I am a circle.");
 
 
